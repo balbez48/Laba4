@@ -9,8 +9,10 @@ public:
 	LineSegment();
 	LineSegment(const LineSegment& segment);
 	LineSegment(double x, double y);
+	double get_x() const;
+	double get_y() const;
 
-	bool PointOnLine(double num) const;
+	bool PointOnLine(int num) const;
 	friend std::ostream& operator<< (std::ostream& out, const LineSegment& segment);
 
 	double operator!() const;
@@ -21,5 +23,6 @@ public:
 
 };
 
-LineSegment operator+ (double n, LineSegment& segment);
-bool operator> (double n, const LineSegment& segment);
+LineSegment operator+ (const LineSegment& segment, int n);
+LineSegment operator+ (int n, const LineSegment& segment);
+bool operator> (const LineSegment& segment, int n);

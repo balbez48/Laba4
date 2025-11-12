@@ -6,13 +6,23 @@ LineSegment::LineSegment(const LineSegment& segment) : x_(segment.x_), y_(segmen
 
 LineSegment::LineSegment(double x, double y) : x_(x), y_(y) {}
 
+double LineSegment::get_x() const 
+{
+	return x_;
+}
+
+double LineSegment::get_y() const
+{
+	return y_;
+}
+
 std::ostream& operator<<(std::ostream& out, const LineSegment& segment)
 {
 	out << "Coords: [" << segment.x_ << ", " << segment.y_ << "]";
 	return out;
 }
 
-bool LineSegment::PointOnLine(double num) const
+bool LineSegment::PointOnLine(int num) const
 {
 	if (x_ < y_) {
 	  return (num >= x_ && num <= y_);
@@ -40,23 +50,31 @@ LineSegment LineSegment::operator++(int)
 	return segm;
 }
 
-//LineSegment::operator int() const
-//{
-//	return int(x_);
-//}
-//
-//LineSegment::operator double() const
-//{
-//	return y_;
-//}
-//
-//
-//LineSegment operator+(double n, LineSegment& segment)
-//{
-//	return LineSegment(segment.x_ + n, segment.y_ + n);
-//}
-//
-//bool operator>(double n, const LineSegment& segment)
-//{
-//	return false;
-//}
+LineSegment::operator int() const
+{
+	return int(x_);
+}
+
+LineSegment::operator double() const
+{
+	return y_;
+}
+
+LineSegment operator+(const LineSegment& segment, int n)
+{
+	return LineSegment(segment.get_x() + n, segment.get_y() + n);
+}
+
+LineSegment operator+(int n, const LineSegment& segment)
+{
+	return LineSegment(segment.get_x() + n, segment.get_y() + n);
+}
+
+bool operator> (const LineSegment& segment, int n)
+{
+	if (segment.PointOnLine(n)) {
+	  return true;
+	} else {
+	  return false;
+	}
+}
