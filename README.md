@@ -28,13 +28,13 @@
 
 <img width="600" height="39" alt="image" src="https://github.com/user-attachments/assets/ee967e4a-dfc6-4de6-8f8d-3e8f10220886" />
 
-<img width="603" height="62" alt="image" src="https://github.com/user-attachments/assets/ebc0d487-efcc-4700-a7b1-0975c211be97" />
+<img width="600" height="62" alt="image" src="https://github.com/user-attachments/assets/ebc0d487-efcc-4700-a7b1-0975c211be97" />
 
 1. Получили ссылку на оператор вывода и ссылку на объект
 2. Перегрузили оператор вывода и вернули его
 
 - Метод, который проверяет попало ли число в отрезок
-<img width="651" height="550" alt="image" src="https://github.com/user-attachments/assets/f89cd92f-7a95-49e1-84b5-4cc13b8cc60c" />
+<img width="600" height="550" alt="image" src="https://github.com/user-attachments/assets/f89cd92f-7a95-49e1-84b5-4cc13b8cc60c" />
 
 1. Приняли число типа int
 2. Проверили входит ли в отрезок и вернули булевое значение
@@ -49,7 +49,7 @@
   - Конструктор с параметрами
   <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/b841fd2b-ca6c-4fc3-ab46-6de427115d28" />
 
-<img width="1121" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
+<img width="600" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
 
 1. В каждом из конструкторов воспользовался списком инициализаций и объявил поля объектов в зависимости от их задач
 
@@ -59,7 +59,7 @@
 
 Унарные операции: 
 ! - вычислить длину отрезка, результат должен быть типа double; 
-<img width="667" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
+<img width="600" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
 
 1. Перегрузил оператор !
 2. Вернул модуль от разности x_ и y_
