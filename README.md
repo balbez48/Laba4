@@ -35,6 +35,7 @@
 
 - Метод, который проверяет попало ли число в отрезок
 <img width="651" height="550" alt="image" src="https://github.com/user-attachments/assets/f89cd92f-7a95-49e1-84b5-4cc13b8cc60c" />
+
 1. Приняли число типа int
 2. Проверили входит ли в отрезок и вернули булевое значение
 
@@ -58,7 +59,14 @@
 
 Унарные операции: 
 ! - вычислить длину отрезка, результат должен быть типа double; 
+<img width="667" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
+1. Перегрузил оператор !
+2. Вернул модуль от разности x_ и y_
+
 ++ увеличить координаты границ отрезка на 1. 
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e1cd273f-d730-4303-952c-e0ae5574d16a" />
+
+1. 
 
 Операции приведения типа: 
 int (явная) – результатом является целая часть координаты х; 
