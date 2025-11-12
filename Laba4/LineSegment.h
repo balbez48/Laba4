@@ -16,8 +16,8 @@ public:
 	friend std::ostream& operator<< (std::ostream& out, const LineSegment& segment);
 
 	double operator!() const;
-	LineSegment& operator++(); //префиксный
-	LineSegment operator++(int); //постфиксный
+	LineSegment& operator++(); 
+	LineSegment operator++(int); 
 	explicit operator int() const;
 	operator double() const;
 

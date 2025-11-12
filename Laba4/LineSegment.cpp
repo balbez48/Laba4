@@ -33,7 +33,7 @@ bool LineSegment::PointOnLine(int num) const
 
 double LineSegment::operator!() const
 {
-	return std::abs(x_) + std::abs(y_);
+	return std::abs(x_ - y_);
 }
 
 LineSegment& LineSegment::operator++() 
