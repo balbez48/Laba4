@@ -49,7 +49,7 @@
   - Конструктор с параметрами
   <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/b841fd2b-ca6c-4fc3-ab46-6de427115d28" />
 
-<img width="600" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
+<img width="400" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
 
 1. В каждом из конструкторов воспользовался списком инициализаций и объявил поля объектов в зависимости от их задач
 
@@ -59,20 +59,28 @@
 
 Унарные операции: 
 ! - вычислить длину отрезка, результат должен быть типа double; 
-<img width="600" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
+<img width="400" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
 
 1. Перегрузил оператор !
 2. Вернул модуль от разности x_ и y_
 
-++ увеличить координаты границ отрезка на 1. 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e1cd273f-d730-4303-952c-e0ae5574d16a" />
+++ увеличить координаты границ отрезка на 1.
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/e1cd273f-d730-4303-952c-e0ae5574d16a" />
 
-1. 
+1. Перегрузил операторы ++ (префикс/постфикс)
+2. (префикс) Изменил поля объекта и сразу же вернул
+3. (постфикс) Сохранил копию текущего объекта, вызвал для его префикс и вернул копию
 
 Операции приведения типа: 
 int (явная) – результатом является целая часть координаты х; 
+<img width="400" height="134" alt="image" src="https://github.com/user-attachments/assets/f6588579-2f3f-44ff-a60c-8c6c97330034" />
+
 double (неявная) – результатом является координата y. 
+<img width="400" height="139" alt="image" src="https://github.com/user-attachments/assets/182a1d77-3d38-4b39-8a28-dc967f960cb0" />
 
 Бинарные операции:
 (+ int d) – координаты границ увеличиваются на число d; 
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/3c6a9a7b-5fd3-4fd0-84f5-36a7c2a3a36c" />
+
 (> int d) – результат равен true, если целое число попадает в заданный отрезок и false–в противном случае. 
+<img width="683" height="340" alt="image" src="https://github.com/user-attachments/assets/08c12fd5-e34f-4c14-a2ab-fe84a442b755" />
