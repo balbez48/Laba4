@@ -23,6 +23,35 @@
 
 Методы:  Определить, попадает ли заданное число в отрезок. Результат должен быть типа bool.
 
+- Перегрузка оператора вывода
+<img width="897" height="142" alt="image" src="https://github.com/user-attachments/assets/d1c8e2b0-fc61-4d66-9f6d-2caff508e7a1" />
+
+<img width="683" height="39" alt="image" src="https://github.com/user-attachments/assets/ee967e4a-dfc6-4de6-8f8d-3e8f10220886" />
+
+<img width="603" height="62" alt="image" src="https://github.com/user-attachments/assets/ebc0d487-efcc-4700-a7b1-0975c211be97" />
+1. Получили ссылку на оператор вывода и ссылку на объект
+2. Перегрузили оператор вывода и вернули его
+
+- Метод, который проверяет попало ли число в отрезок
+<img width="651" height="550" alt="image" src="https://github.com/user-attachments/assets/f89cd92f-7a95-49e1-84b5-4cc13b8cc60c" />
+1. Приняли число типа int
+2. Проверили входит ли в отрезок и вернули булевое значение
+
+- Конструкторы
+  - Конструктор по умолчания
+  <img width="221" height="42" alt="image" src="https://github.com/user-attachments/assets/3700a837-7304-4626-9a9f-02ba7e44529b" />
+
+  - Конструктор копирования
+  <img width="225" height="36" alt="image" src="https://github.com/user-attachments/assets/b87349fd-91bb-4116-895b-c6e425298a29" />
+
+  - Конструктор с параметрами
+  <img width="317" height="37" alt="image" src="https://github.com/user-attachments/assets/b841fd2b-ca6c-4fc3-ab46-6de427115d28" />
+
+<img width="1121" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
+
+1. В каждом из конструкторов воспользовался списком инициализаций и объявил поля объектов в зависимости от их задач
+
+
 # Задание 2:
 Перегрузить следующие операторы:
 
