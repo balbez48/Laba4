@@ -41,13 +41,13 @@
 
 - Конструкторы
   - Конструктор по умолчания
-  <img width="221" height="42" alt="image" src="https://github.com/user-attachments/assets/3700a837-7304-4626-9a9f-02ba7e44529b" />
+  <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/3700a837-7304-4626-9a9f-02ba7e44529b" />
 
   - Конструктор копирования
-  <img width="225" height="36" alt="image" src="https://github.com/user-attachments/assets/b87349fd-91bb-4116-895b-c6e425298a29" />
+  <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/b87349fd-91bb-4116-895b-c6e425298a29" />
 
   - Конструктор с параметрами
-  <img width="317" height="37" alt="image" src="https://github.com/user-attachments/assets/b841fd2b-ca6c-4fc3-ab46-6de427115d28" />
+  <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/b841fd2b-ca6c-4fc3-ab46-6de427115d28" />
 
 <img width="1121" height="154" alt="image" src="https://github.com/user-attachments/assets/549c2443-0d1b-4d92-b178-ad3728dfab7a" />
 
@@ -60,6 +60,7 @@
 Унарные операции: 
 ! - вычислить длину отрезка, результат должен быть типа double; 
 <img width="667" height="138" alt="image" src="https://github.com/user-attachments/assets/8f991a65-9eb0-484c-b21f-0f1a286a4bd2" />
+
 1. Перегрузил оператор !
 2. Вернул модуль от разности x_ и y_
 
