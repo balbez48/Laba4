@@ -29,6 +29,7 @@
 <img width="683" height="39" alt="image" src="https://github.com/user-attachments/assets/ee967e4a-dfc6-4de6-8f8d-3e8f10220886" />
 
 <img width="603" height="62" alt="image" src="https://github.com/user-attachments/assets/ebc0d487-efcc-4700-a7b1-0975c211be97" />
+
 1. Получили ссылку на оператор вывода и ссылку на объект
 2. Перегрузили оператор вывода и вернули его
 
