@@ -24,9 +24,9 @@
 Методы:  Определить, попадает ли заданное число в отрезок. Результат должен быть типа bool.
 
 - Перегрузка оператора вывода
-<img width="897" height="142" alt="image" src="https://github.com/user-attachments/assets/d1c8e2b0-fc61-4d66-9f6d-2caff508e7a1" />
+<img width="600" height="142" alt="image" src="https://github.com/user-attachments/assets/d1c8e2b0-fc61-4d66-9f6d-2caff508e7a1" />
 
-<img width="683" height="39" alt="image" src="https://github.com/user-attachments/assets/ee967e4a-dfc6-4de6-8f8d-3e8f10220886" />
+<img width="600" height="39" alt="image" src="https://github.com/user-attachments/assets/ee967e4a-dfc6-4de6-8f8d-3e8f10220886" />
 
 <img width="603" height="62" alt="image" src="https://github.com/user-attachments/assets/ebc0d487-efcc-4700-a7b1-0975c211be97" />
 
